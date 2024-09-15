@@ -7,14 +7,12 @@ body{
     background-color: #070b22;
     color: #fff;
     font-family: "Roboto", sans-serif;
-
 }
 .header{
     background-color: #070b22;
     color: #fff;
     height: 100vh;
 }
-
 nav{
     width: 100%;
     display: flex;
@@ -26,7 +24,6 @@ nav{
     box-shadow: 0 0 20px 10px rgb(0, 0, 0);
     color: #fff;
 }
-
 nav ul{
     display: flex;
     flex-direction: row;
@@ -34,19 +31,15 @@ nav ul{
     padding-left: 10px;
     list-style: none;
 }
-
 nav a{
     text-decoration: none;
     color: #fff;
 }
-
 .logoNavBar {
     height: 45px;
     padding: 5px;
     margin-left: 10px;
 }
-
-
 .iconGreen {
     color: #070b22;
     background-color: #29CF6D ;
@@ -58,55 +51,52 @@ nav a{
     align-content: center;
     align-items: center;
 }
-
 .secondNavBar {
     margin: 70px 100px 0 100px;
     padding: 10px;
 }
-
 .mapSite {
     display: flex;
     flex-direction: row;
     justify-content: left;
 }
-
 .mapSite a {
     text-decoration: none;
     color: #ececec;
 }
-
 .mapSiteItem {
     padding-left: 15px;
     list-style: none;
     font-size: 18px;
 }
-
 .mapSiteItem :hover {
     color: #FFD60A;
 }
-
 .mainBannerContainer {
-    row-gap: 30px;
-    column-gap: 30px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-
+}
+.mainBannerAll{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .mainBannerG {
-    height: 300px;
-    width: 790px;
-    border-radius: 15px;    
+    border-radius: 16px; 
+    width: 60%;  
 }
-
 .mainBannerP {
-    height: 300px;
-    width: 300px;
-    border-radius: 15px;
+    border-radius: 16px;
+    width: 30%;
+}
+.mainBannerG:first-child,
+.mainBannerP:first-child {
+   padding-right: 40px;
 }
 .mainBanner {
     background-color: #030B33;
-    height:100vh;
     border-radius: 0px 0px 30px 30px;
     background-image: url('../images/mainBanner.jpg');
     background-size: cover;
@@ -114,8 +104,6 @@ nav a{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-
 h6{
     color: #BFBFBF;
     font-size: 16px;
@@ -124,12 +112,10 @@ h5{
     color: #BFBFBF;
     font-size: 16px;
 }
-
 h4{
     font-size: 20px;
     
 }
-
 h3{
     font-size: 32px;
 }
@@ -137,17 +123,14 @@ h3{
     display: flex;
     flex-direction: row;
 }
-
 .discount{
     color: #FFD60A;
 }
-
 .oldPrice{
     color: #616161;
     text-decoration: line-through;
     padding-right: 8px;
 }
-
 .mb16{
     margin-top: 16px;
 }
@@ -169,7 +152,6 @@ h3{
 .pB4{
     margin-top: 5px;
 }
-
 .pB10 {
     margin-bottom: 10px;
     text-transform: uppercase;
@@ -177,17 +159,16 @@ h3{
     color: #29CF6D;
     text-shadow: 5px  #000;
 }
-
 .pR4 {
     padding: 5px;
 }
-
 .containerHighlight{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
-
 .linkHighlight{
     text-decoration: none;
     color: #fff;
@@ -197,7 +178,6 @@ h3{
 linkHighlight:last-child{
     padding-right: 0px;
 }
-
 .bannerHighlight{
     width: 220px;
     height: 300px;
@@ -205,21 +185,19 @@ linkHighlight:last-child{
     transition: all .3s;
     background-position: cover;
 }
-
 .bannerHighlight:hover {
     transform: translateY(-10px);
 }
-
 .bannerSecond{
     display: flex;
     align-items: flex-end;
     width: 100%;
     height: 80vh;
     border-radius: 15px;
-    background-image: url(/assets/images/ghanor.gif);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+     url('/assets/images/ghanor.gif');
     background-size: cover;
-    background-repeat: no-repeat;
-    background: linear-gradient(to top #000 #2e2e2e);
+    background-position: center;
 }
 
 .containerBannerSecond{
