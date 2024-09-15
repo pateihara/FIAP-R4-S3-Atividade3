@@ -59,13 +59,15 @@ nav a{
     align-items: center;
 }
 
+.secondNavBar {
+    margin: 70px 100px 0 100px;
+    padding: 10px;
+}
+
 .mapSite {
-    margin-left: 190px;
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-top:70px;
-    align-items: left;
 }
 
 .mapSite a {
@@ -84,9 +86,8 @@ nav a{
 }
 
 .mainBannerContainer {
-    row-gap: 25px;
-    column-gap: 25px;
-    height: 60%;
+    row-gap: 30px;
+    column-gap: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -148,7 +149,7 @@ h3{
 }
 
 .mb16{
-    margin-bottom: 16px;
+    margin-top: 16px;
 }
 .mb24{
     margin-bottom: 16px;
@@ -166,7 +167,15 @@ h3{
     padding: 60px;
 }
 .pB4{
-    margin: 5px auto;
+    margin-top: 5px;
+}
+
+.pB10 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #29CF6D;
+    text-shadow: 5px  #000;
 }
 
 .pR4 {
@@ -190,8 +199,11 @@ linkHighlight:last-child{
 }
 
 .bannerHighlight{
+    width: 220px;
+    height: 300px;
     border-radius: 7px;
     transition: all .3s;
+    background-position: cover;
 }
 
 .bannerHighlight:hover {
@@ -199,33 +211,34 @@ linkHighlight:last-child{
 }
 
 .bannerSecond{
-    width: 100%;
-    border-radius: 15px;
-    background-image: url('../images/bannerSecond.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 90vh;
     display: flex;
     align-items: flex-end;
+    width: 100%;
+    height: 80vh;
+    border-radius: 15px;
+    background-image: url(/assets/images/ghanor.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(to top #000 #2e2e2e);
 }
 
 .containerBannerSecond{
-    width: 50%;
+    width: 60%;
 }
+
 .bannerSecondLink{
-    text-decoration: dotted;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
 }
 
 button{
     width: 200px;
     height: 50px;
-    border-radius: 40px;
+    border-radius: 10px;
     font-size: 18px;
-    font-weight: 800;
+    font-weight: 700;
     margin-top: 20px;
+    background-color: #29CF6D;
 }
 
 .outline{
@@ -249,10 +262,14 @@ button{
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
 .categoryCard:hover {
     transform: translateY(-10px);
+    color: #ffffff;
+    background-color: #29CF6D;
 }
 
 .categoryCard{
@@ -274,6 +291,23 @@ button{
     transition: all .3s;
 }
 
+.mainBannerCategory {
+    width: 100%;
+    height: 30vh;
+    background-image: url(/assets/images/bannercategorias.png);
+    background-size: cover;
+    background-position: center;
+    filter:brightness(9
+    0%);
+}
+
+.containerCategory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 footer {
     background-color: #0e1330;
     width: 100%;
@@ -281,4 +315,18 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    margin: 50px;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #29CF6D;
 }
