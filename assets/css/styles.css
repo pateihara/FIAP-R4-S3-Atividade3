@@ -51,10 +51,6 @@ nav a{
     align-content: center;
     align-items: center;
 }
-.secondNavBar {
-    margin: 70px 100px 0 100px;
-    padding: 10px;
-}
 .mapSite {
     display: flex;
     flex-direction: row;
@@ -146,11 +142,17 @@ h3{
 .p24{
     padding: 24px;
 }
+.p40{
+    padding: 40px;
+}
 .p60{
     padding: 60px;
 }
 .pB4{
     margin-top: 5px;
+}
+.pRB60{
+    padding: 0px 60px;
 }
 .pB10 {
     margin-bottom: 10px;
@@ -166,8 +168,7 @@ h3{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;    
 }
 .linkHighlight{
     text-decoration: none;
@@ -194,7 +195,7 @@ linkHighlight:last-child{
     width: 100%;
     height: 80vh;
     border-radius: 15px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 20,20, 0.9)),
      url('/assets/images/ghanor.gif');
     background-size: cover;
     background-position: center;
