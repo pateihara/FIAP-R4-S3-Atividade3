@@ -247,8 +247,9 @@ button{
 
 .categoryCard:hover {
     transform: translateY(-10px);
-    color: #ffffff;
-    background-color: #29CF6D;
+    color: #2bcf6d;
+    background-color: #000000;
+    border: 2px solid #2bcf6d;
 }
 
 .categoryCard{
