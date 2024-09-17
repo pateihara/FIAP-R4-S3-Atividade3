@@ -310,3 +310,99 @@ footer a {
     border-radius: 10px;
     background-color: #29CF6D;
 }
+
+/* login */
+.login-wrapper {
+    background-color:#0c1027;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    background-color: #111;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  .login-wrapper h2 {
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .login-wrapper input[type="email"],
+  .login-wrapper input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #1d1d1d;
+    color: white;
+  }
+  
+  .login-wrapper input[type="email"]::placeholder,
+  .login-wrapper input[type="password"]::placeholder {
+    color: #888;
+  }
+  
+  .login-wrapper button {
+    background-color: #00d14d;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .login-wrapper button:hover {
+    background-color: black;
+    color: #2bcf6d;
+    border: 2px solid #2bcf6d
+  }
+  
+  .login-wrapper a {
+    color: #888;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .login-wrapper a:hover {
+    text-decoration: underline;
+  }
+  
+  .login-wrapper .forgot-password {
+    margin-top: 10px;
+  }
+  
+  .login-wrapper .google-login {
+    background-color: #e0e0e0;
+    color: #333;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-wrapper .google-login:hover {
+    background-color: #1d1d1d;
+    color: white;
+    border: #1d1d1d 1px solid;
+  }
+  
+  .login-wrapper .signup {
+  margin-top: 20px;
+  color: white;
+  }
+  
+  .login-wrapper .signup a {
+  color: #00aaff;
+  }
